@@ -99,7 +99,7 @@ function Page2() {
                     <InputText value={b2} set={(e) => setb2(e.target.value)} label={'b2'}/>
                   </Grid>
                   <Grid container spacing={4}>
-                    <InputText value={b3} set={(e) => setb3(e.target.value)} label={'b3'}/>
+                    <InputText value={b3} set={(e) => setb3(e.target.value)}/>
                   </Grid>
                 </Grid>
               </Grid>
