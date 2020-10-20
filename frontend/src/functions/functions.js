@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiHost = "http://127.0.0.1:8000";
+const apiHost = "https://commath-server.herokuapp.com";
 
 export const getB2s = (b2s) => {
     return axios
