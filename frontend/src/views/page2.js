@@ -70,23 +70,23 @@ function Page2() {
                 <Grid item sm={9}>
                   <span>matrix : A</span>
                   <Grid container spacing={4}>
-                    <InputText value={a00} set={(e) => seta00(e.target.value)} />
-                    <InputText value={a01} set={(e) => seta01(e.target.value)} />
-                    <InputText value={a02} set={(e) => seta02(e.target.value)} />
+                    <InputText value={a00} set={(e) => seta00(e.target.value)} label={'a00'} />
+                    <InputText value={a01} set={(e) => seta01(e.target.value)} label={'a01'}/>
+                    <InputText value={a02} set={(e) => seta02(e.target.value)} label={'a02'}/>
 
                   </Grid>
 
                   <Grid container spacing={4}>
-                    <InputText value={a10} set={(e) => seta10(e.target.value)} />
-                    <InputText value={a11} set={(e) => seta11(e.target.value)} />
-                    <InputText value={a12} set={(e) => seta12(e.target.value)} />
+                    <InputText value={a10} set={(e) => seta10(e.target.value)} label={'a10'}/>
+                    <InputText value={a11} set={(e) => seta11(e.target.value)} label={'a11'}/>
+                    <InputText value={a12} set={(e) => seta12(e.target.value)} label={'a12'}/>
 
                   </Grid>
 
                   <Grid container spacing={4}>
-                    <InputText value={a20} set={(e) => seta20(e.target.value)} />
-                    <InputText value={a21} set={(e) => seta21(e.target.value)} />
-                    <InputText value={a22} set={(e) => seta22(e.target.value)} />
+                    <InputText value={a20} set={(e) => seta20(e.target.value)} label={'a20'}/>
+                    <InputText value={a21} set={(e) => seta21(e.target.value)} label={'a21'}/>
+                    <InputText value={a22} set={(e) => seta22(e.target.value)} label={'a22'}/>
                   </Grid>
                 </Grid>
 
@@ -135,7 +135,7 @@ function InputText(props) {
     <Grid item>
       <TextField
         id="outlined-password-input"
-        label={props.value}
+        label={props.label}
         type="text"
         autoComplete="current-password"
         variant="outlined"
