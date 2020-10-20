@@ -93,13 +93,13 @@ function Page2() {
                 <Grid item>
                   <span>matrix : B</span>
                   <Grid container spacing={4}>
-                    <InputText value={b1} set={(e) => setb1(e.target.value)} />
+                    <InputText value={b1} set={(e) => setb1(e.target.value)} label={'b1'} />
                   </Grid>
                   <Grid container spacing={4}>
-                    <InputText value={b2} set={(e) => setb2(e.target.value)} />
+                    <InputText value={b2} set={(e) => setb2(e.target.value)} label={'b2'}/>
                   </Grid>
                   <Grid container spacing={4}>
-                    <InputText value={b3} set={(e) => setb3(e.target.value)} />
+                    <InputText value={b3} set={(e) => setb3(e.target.value)} label={'b3'}/>
                   </Grid>
                 </Grid>
               </Grid>
