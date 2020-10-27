@@ -17,4 +17,11 @@ export const useStyles = makeStyles((theme) => ({
         textAlign: 'end',
         color: theme.palette.text.secondary,
     },
+    warn: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        //color: theme.palette.text.secondary,
+        color: '#FF0000',
+    },
+    
 }));

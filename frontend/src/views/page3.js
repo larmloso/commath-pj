@@ -43,7 +43,7 @@ function Page3() {
     });
   };
   const back = () => {
-    navigate("/");
+    navigate("/commath-pj");
   };
   return (
 
@@ -108,6 +108,9 @@ function Page3() {
                   กลับ
               </Button>
               </div>
+            </Paper>
+            <Paper className={mystyle.warn}>
+              ** หมายเหตุ  การค้นหาครั้งแรกอาจใช้เวลานานกว่าปกติ **
             </Paper>
           </Grid>
         </Grid>

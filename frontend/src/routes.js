@@ -10,10 +10,10 @@ import Page6 from './views/page6';
 
 
 const routes = [
-    {
-        path: "/",
-        element: <Main />,
-    },
+    // {
+    //     path: "/",
+    //     element: <Main />,
+    // },
     {
         path: "/commath-pj",
         element: <Main />,

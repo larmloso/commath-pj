@@ -36,7 +36,7 @@ function Page2() {
 
 
   const back = () => {
-    navigate("/");
+    navigate("/commath-pj");
   };
 
   const generate = () => {
@@ -119,6 +119,9 @@ function Page2() {
 
 
 
+            </Paper>
+            <Paper className={mystyle.warn}>
+              ** หมายเหตุ  การค้นหาครั้งแรกอาจใช้เวลานานกว่าปกติ **
             </Paper>
           </Grid>
         </Grid>
